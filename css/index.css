@@ -1,0 +1,116 @@
+@charset "utf-8";
+@import url("reset.css");
+@import url("style.css");
+.container1 {
+	border: 1px solid #DCDCDC;
+	width: 990px;
+	height: 251px;
+	margin: 15px auto 0px;
+	border-radius: 5px;
+	background: #fff;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.container1 img {
+	margin-left: 70px;
+	margin-right: 20px;
+	height: 251px;
+	float: left;
+	position: absolute;
+}
+#info {
+	margin-top: 16px;
+	line-height: 20px;
+	padding-right: 20px;
+	margin-left: 420px;
+}
+#info a {
+	text-decoration: underline;
+	font-size: 14pt;
+	color: #0055CC;
+}
+#info a:hover {
+	color: #CC0000;
+}
+#price {
+	margin-top: 5px;
+	width: 100px;
+	padding: 10px 15px;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: bold;
+	background: -webkit-linear-gradient(top, #969696 0%, #858585 25%, #666666 50%, #4D4D4D 100%);
+	background: -moz-linear-gradient(top, #969696 0%, #858585 25%, #666666 50%, #4D4D4D 100%);
+	background: -o-linear-gradient(top, #969696 0%, #858585 25%, #666666 50%, #4D4D4D 100%); 
+}
+#con_hits {
+	margin: 0 auto;
+	width: 995px;
+}
+.hits {
+	width: 191px;
+	height: 202px;
+	border: 1px solid #DCDCDC;
+	border-radius: 6px;
+	float: left;
+	margin-left: 3px;
+	margin-right: 3px;
+	background: -webkit-linear-gradient(top, #FFFFFF 0%, #FDFDFD 65%, #F7F7F7 85%, #EFEFEF 100%);
+	background: -moz-linear-gradient(top, #FFFFFF 0%, #FDFDFD 65%, #F7F7F7 85%, #EFEFEF 100%);
+	background: -o-linear-gradient(top, #FFFFFF 0%, #FDFDFD 65%, #F7F7F7 85%, #EFEFEF 100%); 
+}
+.hits:hover {
+	width: 191px;
+	height: 202px;
+	border: 1px solid #9EC5D5;
+	border-radius: 6px;
+	float: left;
+	margin-left: 3px;
+	margin-right: 3px;
+	background: #fff;
+}
+.hits img {
+	margin-left: 30px;
+	width: 150px;
+	height: 150px;	
+}
+.hits a {
+	margin-left: 21px;
+	color: black;
+	font-weight: bold;
+}
+.hits a:hover {
+	text-decoration: underline;
+}
+.hits p {
+	font-weight: bold;
+	margin-left: 45px;
+	margin-top: 5px;
+}
+.hits p b {
+	font-weight: bold;
+	color: #0090C8;
+}
+.container2 {
+	border: 1px solid #DCDCDC;
+	width: 990px;
+	margin: 220px auto 0px;
+	border-radius: 5px;
+	background: #fff;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.container2 h1 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 30pt;
+	font-weight: bold;
+	margin: 10px 380px;
+	color: #333333;
+}
+#text {
+	margin: 10px;
+	font-size: 15px;
+	line-height: 20px;	
+	padding-top: 20px;
+	padding-bottom: 5px;
+	border-top: 1px #ebebeb solid;
+	border-bottom: 1px #EBEBEB solid;
+}
